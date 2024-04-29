@@ -1,0 +1,104 @@
+/* Body */
+
+body {
+    background-color:rgb(212, 212, 212);
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    margin-top: 30px; /* Agregar espacio en la parte superior */
+    padding: 5px;
+    padding-bottom: 10px; /* Agregar espacio en la parte inferior */
+    background-color: rgb(153, 153, 153); /* Color de fondo del encabezado */
+    color: rgb(212, 212, 212);
+    }
+
+h2 {
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 1px;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Lobster', cursive; /* Aplica la fuente Roboto */
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+
+/* Tabla */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th /* Fila 1*/ {
+    color:rgb(212, 212, 212);
+    background-color: #2b17c4;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+th a /* Estilo para enlaces dentro de las celdas */ {
+    text-decoration: none; /* Quitar subrayado de enlaces */
+}
+
+td /* Fila 2*/ {
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* Footer */
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px; /* Agregar espacio en la parte inferior */
+    background-color: rgb(153, 153, 153); /* Color de fondo del encabezado */
+}
+
+nav a /* Estilos para el enlace "Inicio" */ {
+    text-decoration: none;
+    color: rgb(212, 212, 212); /* Color azul */
+    font-weight: bold; /* Texto en negrita */
+    padding: 5px 10px; /* Espaciado interno */
+    border: 2px solid rgb(212, 212, 212); /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease; /* Transición suave */
+    
+}
+
+nav a:hover {
+    background-color: rgb(212, 212, 212); /* Cambiar color de fondo al pasar el mouse */
+    color: rgb(168, 167, 167); /* Cambiar color de texto al pasar el mouse */
+    
+}

@@ -1,0 +1,216 @@
+/* Body */
+
+body {
+    background-color:rgb(212, 212, 212);
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    margin-top: 30px; /* Agregar espacio en la parte superior */
+    padding: 5px;
+    padding-bottom: 10px; /* Agregar espacio en la parte inferior */
+    background-color: rgb(153, 153, 153); /* Color de fondo del encabezado */
+    color: rgb(212, 212, 212);
+    }
+
+h2 {
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 1px;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Lobster', cursive; /* Aplica la fuente Roboto */
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+/* Main */
+
+.table-container {
+    width: 80%;
+    margin: 5px auto;
+    overflow-x: auto; /* Para manejar tablas anchas en pantallas pequeñas */
+}
+
+table {
+    width: 80%; /* Ancho de la tabla */
+    margin: 20px auto; /* Centrar la tabla horizontalmente con un margen */
+    border-collapse: separate; /* Separar los bordes de la tabla */
+    border-spacing: 0; /* Espaciado entre las celdas */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td { 
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+}
+
+
+.lover {
+    color:rgb(153, 153, 153);
+    background-color: #fac5f0;
+    border-bottom: 1px solid #fac5f0;
+
+    td a /* Estilo para enlaces dentro de las celdas */ {
+        text-decoration: none; /* Quitar subrayado de enlaces */
+        color: rgb(153, 153, 153); /* Color de texto para enlaces */
+    }
+
+    td a:hover /* Hover sobre enlaces */ {
+        color: rgb(255, 255, 255); /* Color de texto al pasar el mouse sobre enlaces */
+    }
+}
+
+.fearless {
+    color:rgb(153, 153, 153);
+    background-color: #ffd182;
+    border-bottom: 1px solid #ffd182;
+
+    td a /* Estilo para enlaces dentro de las celdas */ {
+        text-decoration: none; /* Quitar subrayado de enlaces */
+        color: rgb(153, 153, 153); /* Color de texto para enlaces */
+    }
+
+    td a:hover /* Hover sobre enlaces */ {
+        color: rgb(255, 255, 255); /* Color de texto al pasar el mouse sobre enlaces */
+    }
+}
+
+.evermore {
+    color:rgb(212, 212, 212);
+    background-color: #954618;
+    border-bottom: 1px solid #954618;
+
+    td a /* Estilo para enlaces dentro de las celdas */ {
+        text-decoration: none; /* Quitar subrayado de enlaces */
+        color: rgb(212, 212, 212); /* Color de texto para enlaces */
+    }
+
+    td a:hover /* Hover sobre enlaces */ {
+        color: rgb(255, 255, 255); /* Color de texto al pasar el mouse sobre enlaces */
+    }
+}
+
+.reputation {
+    color:rgb(212, 212, 212);
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
+
+    td a /* Estilo para enlaces dentro de las celdas */ {
+        text-decoration: none; /* Quitar subrayado de enlaces */
+        color: rgb(212, 212, 212); /* Color de texto para enlaces */
+    }
+
+    td a:hover /* Hover sobre enlaces */ {
+        color: rgb(255, 255, 255); /* Color de texto al pasar el mouse sobre enlaces */
+    }
+}
+
+.speak-now {
+    color:rgb(212, 212, 212);
+    background-color: #9230b2;
+    border-bottom: 1px solid #9230b2;
+
+    td a /* Estilo para enlaces dentro de las celdas */ {
+        text-decoration: none; /* Quitar subrayado de enlaces */
+        color: rgb(212, 212, 212); /* Color de texto para enlaces */
+    }
+
+    td a:hover /* Hover sobre enlaces */ {
+        color: rgb(255, 255, 255); /* Color de texto al pasar el mouse sobre enlaces */
+    }
+}
+
+.red {
+    color:rgb(212, 212, 212);
+    background-color: #671717;
+    border-bottom: 1px solid #671717;
+
+    td a /* Estilo para enlaces dentro de las celdas */ {
+        text-decoration: none; /* Quitar subrayado de enlaces */
+        color: rgb(212, 212, 212); /* Color de texto para enlaces */
+    }
+
+    td a:hover /* Hover sobre enlaces */ {
+        color: rgb(255, 255, 255); /* Color de texto al pasar el mouse sobre enlaces */
+    }
+}
+
+.folklore {
+    color:rgb(212, 212, 212);
+    background-color: #919191;
+    border-bottom: 1px solid #919191;
+
+    td a /* Estilo para enlaces dentro de las celdas */ {
+        text-decoration: none; /* Quitar subrayado de enlaces */
+        color: rgb(212, 212, 212); /* Color de texto para enlaces */
+    }
+
+    td a:hover /* Hover sobre enlaces */ {
+        color: rgb(255, 255, 255); /* Color de texto al pasar el mouse sobre enlaces */
+    }
+}
+
+.nineteen {
+    color:rgb(153, 153, 153);
+    background-color: #7adbd9;
+    border-bottom: 1px solid #7adbd9;
+
+    td a /* Estilo para enlaces dentro de las celdas */ {
+        text-decoration: none; /* Quitar subrayado de enlaces */
+        color: rgb(153, 153, 153); /* Color de texto para enlaces */
+    }
+
+    td a:hover /* Hover sobre enlaces */ {
+        color: rgb(255, 255, 255); /* Color de texto al pasar el mouse sobre enlaces */
+    }
+}
+
+.midnights {
+    color:rgb(212, 212, 212);
+    background-color: #2b17c4;
+    border-bottom: 1px solid #2b17c4;
+
+    td a /* Estilo para enlaces dentro de las celdas */ {
+        text-decoration: none; /* Quitar subrayado de enlaces */
+        color: rgb(212, 212, 212); /* Color de texto para enlaces */
+    }
+
+    td a:hover /* Hover sobre enlaces */ {
+        color: rgb(255, 255, 255); /* Color de texto al pasar el mouse sobre enlaces */
+    }
+}
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px; /* Agregar espacio en la parte inferior */
+    background-color: rgb(153, 153, 153); /* Color de fondo del encabezado */
+}
+
+nav a /* Estilos para el enlace "Inicio" */ {
+    text-decoration: none;
+    color: rgb(212, 212, 212); /* Color azul */
+    font-weight: bold; /* Texto en negrita */
+    padding: 5px 10px; /* Espaciado interno */
+    border: 2px solid rgb(212, 212, 212); /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease; /* Transición suave */
+    
+}
+
+nav a:hover {
+    background-color: rgb(212, 212, 212); /* Cambiar color de fondo al pasar el mouse */
+    color: rgb(168, 167, 167); /* Cambiar color de texto al pasar el mouse */
+    
+}
